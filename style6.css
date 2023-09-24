@@ -1,0 +1,35 @@
+html{
+    background-image: url(dog.jpg);
+    background-repeat: no-repeat; /*​ សម្រាប់ឲរូបចេញធំមួយ មិនមានរូបច្រើន */
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+body{
+    color: black;
+}
+div{
+    border: 4px dotted yellow;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 20px; or margin-bottom: 20px;*/
+}
+p{
+    /* background-color: rgb(84, 84, 230 , 0.7); : 0.7 ជាភាពព្រាលឲ្យអក្សរមើលធ្លុះដល់រូបភាពខាងក្រោយ​(យើងត្រូវសរសេរដាក់វាខ្លួនឯង)*/
+    background-color: rgb(84, 84, 230 , 0.7);
+    font-size: 20px;
+    width: 50%;
+    padding: 40px;
+}
+h1{
+    text-align: center;
+    text-shadow: 3px 4px 3px white ;
+    
+}
+
+/* text-shadow: ស្តាំ​ ក្រោម ភាពព្រាល ពណ៍ ;
+​​​​   box-shadow: ស្តាំ ក្រោម ភាពព្រាល(ភាពអត់ច្បាស់)​ ទំហំភាពព្រាល ពណ៍
+​   
+    - text: ដាក់ឲ្យអក្សរ
+    - box :ដាក់ឲ្យប្រអប់(ទើសទើបចេញស្រមោល)
+*/
